@@ -1,89 +1,112 @@
 <!DOCTYPE html>
-<html lang = "en-US">
-	<head>
-		<title>Emily's 2021 Summer</title>
-		<link rel="stylesheet" href="styles.css">
-		<meta name = "description" content = "Emily's Summer 2021">
-		<meta name = "keywords" content = "Emily, dogs, swimming, summer">
-		<meta name="author" content="Emily Ngo">
-	</head>
-	<body>
-		<div id="page">
-			<!-- This section contains information about the navigation bar  -->
-			<div class="menu-holder">
-				<nav id="header-main-menu">
-					<ul class="main-menu ">
-						<li>
-							<a href="index.html"> Home </a>
-						</li>
-						<li>
-							<a href="schedule.html">Courses</a>
-						</li>
-						<li>
-							<a href="about.html">About</a>
-						</li>
-						<li>
-							<a href="index.html">Hobbies</a>
-						</li>
-						<li>
-							<a href="index.html">Blog</a>
-						</li>
-						<li>
-							<a href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<!-- This section shows a video of my hometown -->
-			<div>
-				<video autoplay muted loop>
-					<source src="img/austin.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video>
+<html lang = "en">
+    <head>
+        <title>Gothic Architecture</title>
+        <meta name = "Author" content = "Emily Ngo">  
+        <link href = "css/styles.css" rel = "stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>Gothic Architecture</h1>
+            <br class = "clear"> 
+            <nav>
+                <a href="">Early Gothic</a>
+                <a href="">Rayonnant</a>
+                <a href="">Late Gothic</a>
+                <a href="">Gallery</a>
+            </nav>
+            <br class = "clear"> 
+    
+        </header>
+        
+        <!-- Intro to Gothic art and its namesake -->
+        <div id = "about">
+           
+            <h2>About</h2>
+            <img class = "rcol" src = "imgs/Notre-Dame-de-Paris-France.jpeg" alt = "Notre Dame de Paris">
+            <p id = "about-text" class = "lcol">Gothic art, the painting, sculpture, and architecture characteristic of the second of two great international eras that flourished in western and central Europe during the Middle Ages. Gothic art evolved from Romanesque art and lasted from the mid-12th century to as late as the end of the 16th century in some areas. The term Gothic was coined by classicizing Italian writers of the Renaissance, who attributed the invention (and what to them was the nonclassical ugliness) of medieval architecture to the barbarian Gothic tribes that had destroyed the Roman Empire and its classical culture in the 5th century CE. The term retained its derogatory overtones until the 19th century, at which time a positive critical revaluation of Gothic architecture took place. Although modern scholars have long realized that Gothic art has nothing in truth to do with the Goths, the term Gothic remains a standard one in the study of art history.</p>
 
-				<p class ="center-text">
-					I spent my 2021 summer with my parents in Austin, Texas. Above is a video of 360, a bridge famous in Austin. I spend the summer swimming, training my dog, teaching kids Python and Math online, and improving my mental health. By the end of the summer, I felt like I was ready to tackle my Fall semester and take on an internship. Below are some pictures of me enjoying my Texas summer!
-				</p>
-			</div>
-			<br/>
-			<!-- This section contains an image and description of me and an avacado -->
-			<figure>
-				<img class ="img-1" src="img/emily-avacado.JPG" alt="Emily hugs and avacado statue" title="new summer friend" />
-				
-				<figcaption>
-					This is an avacado statue at the Domain shopping center in Austin. I went to a restraunt called the Yard with my mother and commemorated the occasion with this photo.
-				</figcaption>
-				
-			</figure>
+            <br class = "clear">
+            <hr>
+        </div>
+        
+        
+        <!-- Explains Gothic Architecture using a grid that highlights its key characteristics -->
+        <div id = "architecture">
+            <h2>Gothic Architecture</h2>
+            <p>Gothic Architecture is a pan-European style that lasted between the mid 12th Century and the 16th Century. While the Gothic style can vary according to location, age, and type of building, it is often characterized by 6 key architectural elements: large stained glass windows, pointed arches, ribbed vaults, flying buttresses, tracery, and ornate decoration.</p>
+        </div>
+        <div id = "motifs" class = "subsec">
+            <h3>Motifs and Features</h3>
+            <div class = "col3">
+                <div id = "windows" class = "motif left">
+                    <img src = "imgs/Notre-Dame-de-Paris_-_rosace_sud.jpeg" alt = "Notre Dame de Paris Rosace Sud">
+                    <h4>Stained Glass Windows</h4>
+                    <p>While stained glass windows are found in many places of worship, they are particularly prevalent in Gothic cathedrals. Featuring meticulously cut colored glass, these kaleidoscopic windows—which are typically either tall and arched ‘lancet' windows or round ‘rose' windows—are larger than those found in other types of churches. This allowed them to let in more dazzling light. Gothic stained glass windows also frequently feature tracery, a decorative type of stone support, and detailed scenes from Biblical stories.</p>
+                </div>
 
+                <div id = "arches" class = "motif center">
+                    <img src = "imgs/Lincoln,_Cathedral_pointed arch.jpeg" alt = "Lincoln Cathedral Arches">
+                    <h4>Pointed Arches</h4>
+                    <p>A primary feature of many religious structures, ample archways can be found in most Gothic churches and cathedrals. Rather than the wide, rounded arches characteristic of Romanesque buildings, however, architects working in the Gothic style adapted the tall, thin pointed arches found in Islamic architecture. This silhouette accentuated each cathedral's height, symbolically pointed toward the sky, and accommodated similarly-shaped vaulting.</p>
+                </div>
 
-			<br/> <br/> <br/>
-			<!-- This section shows pictures of some fun summer memories -->
-			<div class = "center-mid-1">
-				<h4 class="center-text">Summer Memories</h4>
-				<p class="center-text">
-					<img class ="img-2" src="img/family-birthday.JPG" alt="my family celebrating my birthday" title="Emily's 20th birthday" />
-					<img class ="img-2" src="img/emily&lucas.JPG" alt="Emily and her brother lucas" title="Emily and Lucas" />
-					<img class ="img-2" id="norightpadding" src="img/emily-plant.JPG" alt="Emily with plants" title="Emily in garden" />
-				</p>
-			</div>
-			<!--this section is the footer which contains links to social media-->
-			<footer class="footer">
-				<div>
-					<p> © 2021 </p>
-					<div class="socialmedia"> 
-						<a href="#">
-							<span class="twitter"> <img alt = "twitter logo" class= "smlogo" src="img/f081.png"/></span>
-						</a> 
-						<a href="#">
-							<span class="facebook"> <img alt = "facebook logo" class= "smlogo" src="img/f082.png"/></span>
-						</a> 
-						<a href="#">
-							<span class="fa fa-pinterest-p"> <img alt = "pinterest logo" class= "smlogo" src="img/f083.png"/> </span>
-						</a> 
-					</div>
-				</div>
-			</footer>
-		</div>
-	</body>
+                <div id = "vaults" class = "motif right">
+                    <img src = "imgs/Chartres_-_Cathédrale_16.jpeg" alt = "Chartres Cathedrale Vault">
+                    <h4>Ribbed Vaults</h4>
+                    <p>In order to incorporate higher ceilings and taller windows into their designs, Gothic architects utilized a new method of structural support called ribbed vaulting. Ribbed vaulting involves the use of intersecting barrel vaults—arches placed parallel to one another in order to support a rounded roof. In addition to showcasing a more decorative aesthetic than traditional barrel vaults, these criss-crossed constructions offer increased support for the sky-high buildings.</p>
+                </div>
+                <br class = "clear tablet">
+            </div>
+
+            <div class = "col3">
+                <div id = "buttresses" class = "motif left">
+                    <img src = "imgs/Amiens_Cathedrale_Notre-dame_buttress.jpeg" alt = "Notre Dame Cathedral Buttress">
+                    <h4>Flying Buttresses</h4>
+                    <p>On top of these advanced vaulting techniques, Gothic architects employed another unique method of structural support: flying buttresses. These projecting stone structures reinforced the buildings by redistributing the weight of the heavy roof to a lower, more solid level.</p>
+                </div>
+                <br id = "tablet-only">
+                <div id = "tracery" class = "motif center">
+                    <img src = "imgs/Amiens_France_Cathédrale-Notre-Dame-d-Amiens.jpeg" alt = "Notre Dame Cathedral Tracery">
+                    <h4>Tracery</h4>
+                    <p>Tracery is an architectural solution by which windows (or screens, panels, and vaults) are divided into sections of various proportions by stone bars or ribs of moulding. Tracery is practical as well as decorative, because the increasingly large windows of Gothic buildings needed maximum support against the wind.</p>
+                </div>
+
+                <div id = "decoration" class = "motif right">
+                    <img src = "imgs/Beauvais.jpeg">
+                    <h4>Ornate Decoration</h4>
+                    <p>A final feature found in Gothic architecture is the presence of ornate decorative elements. These include embellished colonnades and colonettes, sculptural moldings, statues of saints and historical figures, pinnacles and spires, and gargoyles, grotesque figures that double as water spouts.</p>
+                </div>
+                <br class = "clear">
+            </div>
+        </div>
+
+        <!-- Introductes the different periods of gothic architecture and encourages the user to explore the rest of the website -->
+        <div id = "periods">
+            <img class = "lcol" src = "imgs/Sainte_Chapelle_-_Upper_level_1.jpeg">
+            <div class = "rcol">
+                <h2>Gothic Architecture Periods</h2>
+                <p>Architecture became a leading form of artistic expression during the late Middle Ages". Gothic architecture began in the earlier 12th century in northwest France and England and spread throughout Latin Europe in the 13th century; by 1300, a first "international style" of Gothic had developed, with common design features and formal language. A second "international style" emerged by 1400, alongside innovations in England and central Europe that produced both the perpendicular and flamboyant varieties. Typically, these typologies are identified as: </p>
+                <ul>
+                    <li><a href="">c.1130–c.1240 Early to High Gothic and Early English </a></li>
+                    <li><a href="">c.1240–c.1350 Rayonnant and Decorated Style</a></li>
+                    <li><a href="">c.1350–c.1500 Late Gothic: flamboyant and perpendicular</li></a></li>
+                </ul>
+                <p>Click on a period to learn more about it</p>
+            </div>
+            <br class = "clear">
+        </div>
+
+        
+
+        <footer>
+                <h5>Resources Used</h5>
+                <a href = "https://en.wikipedia.org/wiki/Gothic_architecture#Towers_and_spires"> Wikipedia</a> 
+                <a href = "https://mymodernmet.com/gothic-architecture-characteristics/2/"> My Modern Met </a>
+                <a href = "https://www.vam.ac.uk/articles/the-gothic-style-an-introduction"> Victoria and Albert Museum</a>
+                <a href = "https://www.britannica.com/art/Gothic-art"> Brittanica</a> 
+            
+        </footer>
+    </body>
 </html>
